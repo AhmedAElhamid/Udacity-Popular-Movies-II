@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_popular"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="Popular" />
+
+    <item
+        android:id="@+id/navigation_top_rated"
+        android:icon="@drawable/ic_whatshot_black_24dp"
+        android:title="Top Rated" />
+
+    <item
+        android:id="@+id/navigation_now_playing"
+        android:icon="@drawable/ic_confirmation_number_black_24dp"
+        android:title="Now Playing"/>
+
+    <item
+        android:id="@+id/navigation_up_coming"
+        android:icon="@drawable/ic_golf_course_black_24dp"
+        android:title="Up Coming"/>
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/search"></item>
+
+</menu>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/poster_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+
+        <!-- TextView that displays the description -->
+        <TextView
+            android:id="@+id/movie_title"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            tools:text="Fight Club" />
+
+        <!-- TextView that displays the update date -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_star_24">
+            </ImageView>
+            <TextView
+                android:id="@+id/rating"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:paddingLeft="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:textColor="@color/textColor"
+                tools:text="8.9" />
+            <TextView
+                android:id="@+id/release_date_label"
+                android:paddingLeft="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:textColor="@color/textColor"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:text="Release Date:" />
+            <TextView
+                android:id="@+id/release_date"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:paddingLeft="5dp"
+                android:layout_width="match_parent"
+                android:paddingTop="3dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                tools:text="2000" />
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:paddingTop="16dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+
+    <!-- A priority circle that is colored in programmatically in the adapter code -->
+
+</LinearLayout>

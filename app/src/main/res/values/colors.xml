@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02ee56</color>
+    <color name="colorPrimaryDark">#00ba21</color>
+    <color name="colorAccent">#4CAF50</color>
+
+    <color name="colorClear">#FFFF</color>
+    <color name="gray">#f0f0f0</color>
+    <color name="mainBackground">@color/gray</color>
+    <color name="background">@android:color/white</color>
+    <color name="textColor">@android:color/primary_text_light</color>
+    <color name="videoViewColor">@android:color/black</color>
+    <color name="textColorLight">@android:color/white</color>
+</resources>
